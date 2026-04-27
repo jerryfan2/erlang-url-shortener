@@ -1,0 +1,6 @@
+-sname url_shortener
+
+-setcookie url_shortener_cookie
+
++K true
++A30

@@ -1,0 +1,17 @@
+{application, url_shortener, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {url_shortener_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        mnesia,
+        cowboy,
+        eredis
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
